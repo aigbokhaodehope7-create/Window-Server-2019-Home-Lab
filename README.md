@@ -56,7 +56,4 @@ nslookup 192.168.56.115
 - DNS zone names must follow proper domain formatting (e.g. `domain.com`) — a typo here (adding an extra suffix) affects every downstream record and is far easier to fix before AD DS installation than after.
 - Reverse lookup zones aren't required for DNS to function, but PTR records matter heavily once AD DS is in place (Kerberos, replication, troubleshooting).
 
-## Next Steps
-- Rename server to final hostname
-- Finalize static IP configuration
-- Install AD DS role and promote to Domain Controller
+
